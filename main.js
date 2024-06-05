@@ -23,7 +23,7 @@ do {
 
     const cantidadValidada = validarCantidad(cantidad);
     
-    switch (producto.toLowerCase()) { // Agregar .toLowerCase() para hacer la entrada no sensible a mayúsculas
+    switch (producto.toLowerCase()) {
         case "sorrentinos": 
             precio = 3000;
             break;
